@@ -1,0 +1,19 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+  },
+  "devDependencies": {
+    "@nuxt/content": "^2.5.2",
+    "@nuxt/image-edge": "^1.0.0-28008586.381b906",
+    "@nuxtjs/google-fonts": "^3.0.0",
+    "nuxt": "^3.4.1",
+    "push-dir": "^0.4.1"
+  }
+}
